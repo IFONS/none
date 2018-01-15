@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eje5</title>
+</head>
+<body>
+<form action="index.html" method="post" >
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre"/>
+    <br/>
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" name="apellidos" id="apellidos"/>
+    <br/>
+    <label for="email">Correo electronico:</label>
+    <input type="email" name="email" id="email"/>
+    <br/>
+    Población:
+    <label for="poblacion">Población:</label>
+    <input type="text" name="poblacion" id="poblacion"/>
+    <br/>
+    <label for="provincia">Provincia:</label>
+    <input type="text" name="provincia" id="provincia"/>
+    <br/>
+
+        <input type="radio" name="edad" value="0-20"> 0-20<br/>
+        <input type="radio" name="edad" value="20-40">20-40<br/>
+        <input type="radio" name="edad" value="40-60"> 40-60<br/>
+        <input type="radio" name="edad" value="60-100"> 60-100<br/>
+
+    <br/>
+    ¿como nos has conocido?<br/>
+    <input type="checkbox" name="origen" value="amijo"/>
+    A traves de un amijo.
+    <br>
+    <input type="checkbox" name="origen" value="buscador"/>
+    A traves de un buscador.
+    <br/>
+    <input type="checkbox" name="origen" value="red"/>
+    Nvegando por la red.
+    <br/>
+    <input type="checkbox" name="origen" value="otos"/>
+    Otros.
+    <br/>
+    <button type="submit" value="enviar" id="enviar" name="enviar">Enviar</button>
+        <button type="Reset" value="borrar">Borrar</button>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script src="js.js"></script>
+
+</body>
+</html>
